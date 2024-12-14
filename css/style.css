@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Novelist";
-    src: url("/fonts/Novelist-Display.woff2") format("woff2"),
-         url("/fonts/Novelist-Display.woff") format("woff");
+    src: url("../fonts/Novelist-Display.woff2") format("woff2"),
+         url("../fonts/Novelist-Display.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
