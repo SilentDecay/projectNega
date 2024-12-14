@@ -275,6 +275,10 @@ header .navBar a {
     width: 100%;
 }
 
+.goal .title .mobileImages {
+    display: none;
+}
+
 .goal .title h2 {
     color: #000;
     font-family: Novelist;
@@ -301,11 +305,11 @@ header .navBar a {
     z-index: -1;
 }
 
-.goal .title img:first-child {
+.goal .title img:nth-child(2) {
     left: 0;
 }
 
-.goal .title img:nth-child(4) {
+.goal .title img:nth-child(5) {
     right: 0;
     top: 50px;
 }
@@ -1049,12 +1053,7 @@ header .navBar a {
 }
 
 @media screen and (max-width: 600px) {
-    .goal .title h2,
-    .goal .title span {
-        font-size: 12px;
-        width: 50%;
-        z-index: 100;
-    }
+
 
     .goal {
         margin-top: 90px;
@@ -1077,7 +1076,7 @@ header .navBar a {
 @media screen and (max-width: 500px) {
     .aboutUs {
         margin-top: 10px;
-        gap: 15px;
+        gap: 0;
     }
 
     header .navBar a {
@@ -1089,7 +1088,11 @@ header .navBar a {
     }
 
     .aboutUs .title h2 {
-        font-size: 18px;
+        font-size: 22px;
+    }
+
+    .aboutUs .title {
+        align-items: center;
     }
 
     .aboutUs .content {
@@ -1103,6 +1106,8 @@ header .navBar a {
 
     .aboutUs .content p {
         font-size: 16px;
+        width: 80%;
+        letter-spacing: 1px;
         text-align: center;
     }
 
@@ -1112,7 +1117,7 @@ header .navBar a {
     }
 
     .finance .title h2 {
-        font-size: 20px;
+        font-size: 22px;
         line-height: 140%;
     }
 
@@ -1125,7 +1130,7 @@ header .navBar a {
     }
 
     .money .title h2 {
-        font-size: 20px;
+        font-size: 22px;
         text-align: center;
         line-height: 200%;
     }
@@ -1146,16 +1151,16 @@ header .navBar a {
     }
 
     .money .content img {
-        height: 116px;
+        height: 160px;
     }
 
     .partners .title h2 {
-        font-size: 18px;
+        font-size: 22px;
         line-height: 120%;
     }
 
     .partners .title h2 span {
-        font-size: 18px;
+        font-size: 22px;
         line-height: 120%;
     }
 
@@ -1177,7 +1182,7 @@ header .navBar a {
     }
 
     .goal .title span {
-        font-size: 18px;
+        font-size: 22px;
         width: 90%;
     }
 
@@ -1187,16 +1192,12 @@ header .navBar a {
 
     .contactInfo .right {
         align-items: center;
-    }
-
-    .contactInfo .right .title {
-        align-items: end;
-        align-self: flex-end;
+        gap: 10px;
     }
 
     .contactInfo .right .title p {
-        font-size: 18px;
-        text-align: right;
+        font-size: 22px;
+        text-align: center;
     }
 
     .contactInfo img {
@@ -1204,10 +1205,39 @@ header .navBar a {
         align-self: center;
     }
 
+    .contactInfo .right .contacts  {
+        margin-top: 10px;
+    }
+
     .contactInfo .right .contacts a {
         font-size: 18px;
         align-self: center;
         text-align: center;
     }
+
+    .goal .title .mobileImages {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .goal .title .mobileImages img {
+        display: block !important;
+    }
+
+    .goal .title .mobileImages:first-child {
+
+    }
+
+    .goal .title .mobileImages img {
+        object-fit: contain;
+        width: 33%;
+        height: 100%;
+    }
+
+    .goal .title img:nth-child(2),
+    .goal .title img:nth-child(5) {
+        display: none;
+    }
+
 
 }
