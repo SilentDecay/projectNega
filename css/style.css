@@ -1,0 +1,408 @@
+@font-face {
+    font-family: "Novelist";
+    src: url("/fonts/Novelist_free.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Novelist';
+}
+
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center {
+    max-width: 1780px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header h4 {
+    color: var(--Primary, #2947A9);
+    font-family: Novelist;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header .navBar {
+    display: flex;
+    gap: 63px;
+    align-items: center;
+}
+
+header .navBar a {
+    color: var(--Neutral-900, #14171F);
+    font-family: Novelist;
+    font-size: 22.726px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: normal;
+}
+
+
+/* baner */
+
+.baner {
+    width: 100%;
+    margin-top: 100px;
+    height: 846px;
+    background-image: url('/images/baner.png');
+}
+
+/* baner */
+
+
+/* aboutUs */
+
+.aboutUs {
+    margin-top: 168px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs .title {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 883px;
+}
+
+.aboutUs .title span {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 9px 23px;
+    border-radius: 6.519px;
+    background: var(--11, #F2F6FA);
+    width: max-content;
+}
+
+.aboutUs .title h2 {
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94px; /* 97.917% */
+    letter-spacing: -1px;
+}
+
+.aboutUs .content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.aboutUs .content img {
+    height: 590px;
+}
+
+.aboutUs .content p {
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 69px; /* 132.692% */
+    letter-spacing: -1px;
+    width: 942px;
+}
+
+/* aboutUs */
+
+
+/* finance */
+
+.finance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.finance .title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.finance .title span {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 9px 23px;
+    border-radius: 6.519px;
+    background: var(--11, #F2F6FA);
+    width: max-content;
+}
+
+.finance .title h2 {
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 125% */
+    letter-spacing: -1px;
+}
+
+.finance .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.finance .items .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finance .items .item p {
+    color: #35393D;
+    font-family: Novelist;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+/* finance */
+
+
+
+/* money */
+
+.money {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+    margin-top: 107px;
+}
+
+.money .title h2 {
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 91px; /* 94.792% */
+    letter-spacing: -1px;
+    width: 957px;
+}
+
+.money .content {
+    display: flex;
+    gap: 23px;
+    align-items: start;
+}
+
+.money .content p {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; /* 68.64px */
+    letter-spacing: -0.2px;
+}
+
+/* money */
+
+
+/* goal */
+
+.goal {
+    margin-top: 160px;
+}
+
+.goal .title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+
+.goal .title h2 {
+    color: #000;
+    font-family: Novelist;
+    font-size: 64.691px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.4%;
+    width: 900px;
+    text-align: center;
+}
+
+.goal .title span {
+    color: #F7B90F;
+    text-align: center;
+    font-family: Novelist;
+    font-size: 64.691px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.4%; /* 70.125px */
+}
+
+.goal .title img {
+    position: absolute;
+    z-index: -1;
+}
+
+.goal .title img:first-child {
+    left: 0;
+}
+
+.goal .title img:nth-child(4) {
+    right: 0;
+    top: 50px;
+}
+
+/* goal */
+
+
+/* partners */
+
+.partners {
+    margin-top: 126px;
+    display: flex;
+    flex-direction: column;
+    gap: 104px;
+    align-items: center;
+}
+
+.partners .title h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 64.69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.partners .title h2 span {
+    color: #F7B90F;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 64.69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 92.75% */
+}
+
+.partners .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 27px;
+    column-gap: 58px;
+    justify-content: center;
+}
+
+/* partners */
+
+
+/* contactInfo */
+
+.contactInfo {
+    margin-top: 390px;
+    width: 100%;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactInfo .right {
+    display: flex;
+    flex-direction: column;
+    gap: 223px;
+    padding-left: 59px;
+}
+
+.contactInfo .right .title {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfo .right .title p {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; /* 68.64px */
+    letter-spacing: -0.2px;
+}
+
+.contactInfo .right .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contactInfo .right .contacts a {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; /* 68.64px */
+    letter-spacing: -0.2px;
+    text-decoration: none;
+}
+
+/* contactInfo */
