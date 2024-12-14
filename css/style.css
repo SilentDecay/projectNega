@@ -1075,7 +1075,7 @@ header .navBar a {
 
 @media screen and (max-width: 500px) {
     .aboutUs {
-        margin-top: 10px;
+        margin-top: 50px;
         gap: 0;
     }
 
