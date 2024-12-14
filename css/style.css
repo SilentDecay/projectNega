@@ -1093,19 +1093,17 @@ header .navBar a {
     }
 
     .aboutUs .content {
-        flex-direction: row;
         align-items: center;
     }
 
     .aboutUs .content img {
-        height: 150px;
-        width: 60%;
+        height: 180px;
         transform: rotate(35deg);
-        margin-left: -20px;
     }
 
     .aboutUs .content p {
-        font-size: 12px;
+        font-size: 16px;
+        text-align: center;
     }
 
     .finance .items .item p {
@@ -1143,7 +1141,7 @@ header .navBar a {
     }
 
     .money .content p {
-        font-size: 12px;
+        font-size: 16px;
         text-align: center;
     }
 
