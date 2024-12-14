@@ -1076,7 +1076,8 @@ header .navBar a {
 
 @media screen and (max-width: 500px) {
     .aboutUs {
-        margin-top: 80px;
+        margin-top: 10px;
+        gap: 15px;
     }
 
     header .navBar a {
@@ -1088,7 +1089,7 @@ header .navBar a {
     }
 
     .aboutUs .title h2 {
-        font-size: 13px;
+        font-size: 18px;
     }
 
     .aboutUs .content {
@@ -1100,20 +1101,21 @@ header .navBar a {
         height: 150px;
         width: 60%;
         transform: rotate(35deg);
+        margin-left: -20px;
     }
 
     .aboutUs .content p {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .finance .items .item p {
-        font-size: 9px;
-        width: 50%;
+        font-size: 18px;
+        width: 80%;
     }
 
     .finance .title h2 {
-        font-size: 13px;
-        line-height: 200%;
+        font-size: 20px;
+        line-height: 140%;
     }
 
     .finance .title span {
@@ -1125,23 +1127,24 @@ header .navBar a {
     }
 
     .money .title h2 {
-        font-size: 13px;
+        font-size: 20px;
         text-align: center;
         line-height: 200%;
     }
 
     .money {
-        gap: 12px;
+        gap: 0;
+        margin-top: 80px;
     }
 
     .money .content {
-        flex-direction: row;
         align-items: center;
         gap: 0;
     }
 
     .money .content p {
-        font-size: 9px;
+        font-size: 12px;
+        text-align: center;
     }
 
     .money .content img {
@@ -1149,17 +1152,64 @@ header .navBar a {
     }
 
     .partners .title h2 {
-        font-size: 12px;
+        font-size: 18px;
         line-height: 120%;
     }
 
     .partners .title h2 span {
-        font-size: 12px;
+        font-size: 18px;
         line-height: 120%;
     }
 
     .partners {
         gap: 30px;
     }
-    
+
+    .goal .title img {
+        position: static;
+    }
+
+    .goal .title {
+        gap: 10px;
+    }
+
+    .goal .title h2 {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .goal .title span {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .contactInfo {
+        flex-direction: column;
+    }
+
+    .contactInfo .right {
+        align-items: center;
+    }
+
+    .contactInfo .right .title {
+        align-items: end;
+        align-self: flex-end;
+    }
+
+    .contactInfo .right .title p {
+        font-size: 18px;
+        text-align: right;
+    }
+
+    .contactInfo img {
+        height: 250px;
+        align-self: center;
+    }
+
+    .contactInfo .right .contacts a {
+        font-size: 18px;
+        align-self: center;
+        text-align: center;
+    }
+
 }
