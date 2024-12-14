@@ -39,6 +39,7 @@ header {
     top: 0;
     width: 100%;
     box-sizing: border-box;
+    z-index: 50;
 }
 
 header h4 {
@@ -421,6 +422,7 @@ header .navBar a {
 }
 
 /* contactInfo */
+<<<<<<< HEAD
 
 
 
@@ -739,3 +741,5 @@ header .navBar a {
     }
     
 }
+=======
+>>>>>>> 95f37b3517128c1cc028f5bb965d60a4dd56fafb
