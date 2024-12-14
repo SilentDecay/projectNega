@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Novelist";
-    src: url("/fonts/Novelist_free.otf") format("opentype");
+    src: url("/fonts/Novelist-Display.woff2") format("woff2"),
+         url("/fonts/Novelist-Display.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -72,7 +73,7 @@ header .navBar a {
     width: 100%;
     margin-top: 100px;
     height: 846px;
-    background-image: url('/images/baner.png');
+    background-image: url('../images/baner.png');
 }
 
 /* baner */
