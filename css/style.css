@@ -39,6 +39,7 @@ header {
     top: 0;
     width: 100%;
     box-sizing: border-box;
+    z-index: 50;
 }
 
 header h4 {
