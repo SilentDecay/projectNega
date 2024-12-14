@@ -1107,7 +1107,7 @@ header .navBar a {
     .aboutUs .content p {
         font-size: 15px;
         width: 340px;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
         text-align: center;
     }
 
