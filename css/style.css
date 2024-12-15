@@ -684,6 +684,21 @@ header .navBar a {
     letter-spacing: -0.2px;
 }
 
+.money p:nth-child(3) {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; /* 68.64px */
+    letter-spacing: -0.2px;
+    margin-top: -30px;
+}
+
+.money p:nth-child(3) a {
+    text-decoration: underline;
+}
+
 /* money */
 
 
@@ -837,7 +852,8 @@ header .navBar a {
     gap: 40px;
 }
 
-.contactInfo .right .contacts a {
+.contactInfo .right .contacts a,
+.contactInfo .right .contacts span {
     color: var(--1, #2E363E);
     font-family: Novelist;
     font-size: 48px;
@@ -845,8 +861,13 @@ header .navBar a {
     font-weight: 400;
     line-height: 143%; /* 68.64px */
     letter-spacing: -0.2px;
-    text-decoration: none;
 }
+
+.contactInfo .right .contacts a {
+    text-decoration: underline;
+}
+
+
 
 /* contactInfo */
 
@@ -1147,9 +1168,14 @@ header .navBar a {
         gap: 0;
     }
 
-    .money .content p {
+    .money .content p,
+    .money p:nth-child(3) {
         font-size: 16px;
         text-align: center;
+    }
+
+    .money p:nth-child(3) {
+        margin-top: 15px;
     }
 
     .money .content img {
@@ -1211,7 +1237,8 @@ header .navBar a {
         margin-top: 10px;
     }
 
-    .contactInfo .right .contacts a {
+    .contactInfo .right .contacts a,
+    .contactInfo .right .contacts span{
         font-size: 18px;
         align-self: center;
         text-align: center;
